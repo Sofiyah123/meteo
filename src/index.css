@@ -55,10 +55,10 @@ main {
   color: rgba(39, 33, 66, 0.4);
   font-weight: 500;
 }
-.weather-app-icon{
-  font-size:60px;
+.weather-app-icon {
+  font-size: 60px;
   margin-top: 2px;
-  color:yellow;
+  color: yellow;
 }
 .weather-app-details strong {
   color: #f63282;
@@ -69,12 +69,33 @@ main {
 .weather-app-temperature {
   font-size: 50px;
   font-weight: bold;
-  margin-left:10px;
+  margin-left: 10px;
 }
-.weather-app-unit{
-  font-size:21px;
-  margin-top:10px;
-
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date{
+  font-size:16px;
+  color:#000;
+  opacity:0.5;
+}
+.weather-forecast-temperature-min{
+  opacity:0.5;
+}
+.weather-forecast-temperature{
+  font-size: 13px;
+}
+.weather-app-unit {
+  font-size: 21px;
+  margin-top: 10px;
 }
 footer {
   border-top: 1px solid #f9f7fe;
