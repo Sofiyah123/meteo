@@ -24,31 +24,27 @@
         <div>
         <h1 class="weather-app-city" id="cityName"></h1>
         <p  class="weather-app-details">
-        Tuesday 15:49, Scattered clouds <br />
-        Humidity: <strong>68%,</strong>  wind: <strong>3.13km/h</strong>
+        <span class="day">,</span> <span class="time"></span>,</span> <span id="description">Scattered clouds</span> <br />
+        Humidity: <strong id="Humidity">,</strong>  wind: <strong id="wind"></strong>
         </p>
         </div>
         <!-- <div> -->
         <div class="weather-app-temperature-container">
-        <div class="weather-app-icon">🌥</div>
+        <div class="Current-weather-app-icon"></div>
             <div class="weather-app-temperature" id="temperature"></div>
                 <div class="weather-app-unit">°C</div>
         </div>
     </div>
-    <div class="weather-forecast">
-      <div class="row">
-        <div class="col-2">
-          <div class="weather-forecast-date"></div>
-          Thur
-          <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="36">
-          <div class="weather-forecast-temperatures"> 
-            <span class="weather-forecast-temperature-max">18°</span> 
-            <span class="weather-forecast-temperature-min">12°</span>
-          </div>
-</div>
+    <!-- <div class="row"> -->
+    <div class="weather-forecast" id="weatherForecast">
+        <div class="row">
+          <div class="col-2">
+            
+          </div> 
         </div>
-      </div>
+       
     </div>
+  <!-- </div> -->
 </main>
         <div>
         <!-- <h1>Welcome to the Meteo App</h1></main> -->
@@ -62,6 +58,7 @@
         </footer>
     </div>
     <script src="src/index.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body>
 </html>
